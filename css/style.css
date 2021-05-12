@@ -70,15 +70,14 @@ nav ul li {
 }
 
 .container {
-  width: 80vh;
   height: 70vh;
   max-width: 600px;
   margin: auto;
+  padding: 0 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
 .wb-body {
