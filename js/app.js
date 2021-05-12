@@ -10,16 +10,16 @@ about.addEventListener('click', () => {
     title: 'About Me',
     width: '400px',
     height: '400px',
-    top: 50,
-    right: 50,
-    bottom: 50,
-    left: 50,
+    top: 20,
+    right: 20,
+    bottom: 20,
+    left: 20,
     mount: aboutContent,
     onfocus: function () {
       this.setBackground('rgba(32,32,32,0.90)')
     },
     onblur: function () {
-      this.setBackground('rgba(0,170,0,0.90)')
+      this.setBackground('rgba(32,32,32,0.60)')
     },
   })
 })
@@ -29,16 +29,16 @@ travel.addEventListener('click', () => {
     title: 'Travel Me',
     width: '400px',
     height: '400px',
-    top: 150,
-    right: 50,
-    bottom: 50,
-    left: 250,
+    top: 50,
+    right: 20,
+    bottom: 20,
+    left: 100,
     mount: travelContent,
     onfocus: function () {
       this.setBackground('rgba(32,32,32,0.90)')
     },
     onblur: function () {
-      this.setBackground('rgba(0,170,0,0.90)')
+      this.setBackground('rgba(32,32,32,0.60)')
     },
   })
 })
